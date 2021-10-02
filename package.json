@@ -1,0 +1,29 @@
+{
+  "name": "wingmanbotv2",
+  "version": "1.0.0",
+  "description": "A discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zitai01/WingmanBotv2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zitai01/WingmanBotv2/issues"
+  },
+  "homepage": "https://github.com/Zitai01/WingmanBotv2#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
