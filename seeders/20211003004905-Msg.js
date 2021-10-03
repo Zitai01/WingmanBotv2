@@ -4,7 +4,7 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     const msgs = [
       {
-        message: 'Greeting',
+        message: 'wb',
         createdAt: new Date(),
         updatedAt: new Date()
       }

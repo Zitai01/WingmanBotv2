@@ -1,5 +1,5 @@
 <template>
-    <div>This is home</div>
+    <div>Welcoming to WingmanBot's home</div>
 </template>
 
 <script>
