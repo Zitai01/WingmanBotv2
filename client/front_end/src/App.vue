@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <header>
+      <TopBar />
       <Nav />
     </header>
     <main>
@@ -11,11 +12,11 @@
 
 <script>
 import Nav from './components/Nav.vue'
-
+import TopBar from './components/Topbar.vue'
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,TopBar
   }
 }
 </script>

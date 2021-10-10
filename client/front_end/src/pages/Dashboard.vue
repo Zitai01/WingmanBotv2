@@ -10,7 +10,7 @@ export default {
     methods:{
         storeCode(){
             let code = this.$route.params.code
-            localStorage.code = code
+            localStorage.token = code
             this.$router.push(`/`)
         }
     },

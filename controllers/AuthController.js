@@ -17,14 +17,18 @@ const login = async (req, res) => {
       'Content-Type': 'application/x-www-form-urlencoded'
     }
   }
-  console.log(process.env.CLIENT_SECRET)
-  let respond = await axios.post(
-    'https://discord.com/api/oauth2/token',
-    params,
-    config
-  )
-  console.log(respond.access_token)
-  res.redirect(`http://localhost:8080/dashboard/${code}`)
+  try {
+    let respond = await axios.post(
+      'https://discord.com/api/oauth2/token',
+      params,
+      config
+    )
+    console.log(respond.data.access_token)
+    token = respond.data.access_token
+    res.redirect(`http://localhost:8080/dashboard/${token}`)
+  } catch (error) {
+    console.log(error)
+  }
 }
 
 module.exports = {

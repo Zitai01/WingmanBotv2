@@ -7,8 +7,6 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 })
 
-const guild = '229749241810124801'
-const clientId = '893515753217720320'
 client.on('ready', () => {
   console.log(`${client.user.tag}is ready`)
 })
