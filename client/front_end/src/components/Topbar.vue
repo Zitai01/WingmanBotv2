@@ -11,7 +11,7 @@ export default {
         avatar:null
     }),
     methods:{
-        getAvatar
+        
     },
     mounted(){
         
