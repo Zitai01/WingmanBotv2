@@ -8,7 +8,7 @@
              @input="handleChange1"
               :value="botquery"  
               name="botquery"
-              placeholder="Bot's reply">
+              placeholder="Wingman's reply">
             <button type="submit">Submit</button>
         </form>
         <form v-on:submit="handleSubmitReq" @submit.prevent>
@@ -18,7 +18,7 @@
              @input="handleChange2"
               :value="dependent"
               name="dependent"  
-              placeholder="Bot's reply to this message">
+              placeholder="Wingman reply to this message">
             <button type="submit">Submit</button>
         </form>
     </div>

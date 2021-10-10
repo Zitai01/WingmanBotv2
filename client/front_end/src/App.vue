@@ -22,11 +22,34 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: slategray;
   text-align: center;
-  color: #2c3e50;
+  
   margin-top: 60px;
+}
+body{
+  background-color: slategray;
+  color: aliceblue;
+}
+button{
+  margin: 2em;
+  color:aliceblue ;
+  font-size: 0.9em;
+  border: none;
+  background-color: slategray;
+}
+.link{
+  color: white;
+  margin: 2em;
+  text-decoration: none;
+}
+.active_link{
+  color: aqua;
+}
+nav{
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 </style>
